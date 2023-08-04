@@ -24,10 +24,12 @@ class Data(ProcessorABC):
         events = events
         log('initializing')
         fills = hs.Fill(dataset = events.metadata['dataset'], weight = 1)
+        mMuMu_range = (10, 2.0, 4.0)
+        mMuMuBB_range = (27, 40.0, 175.0)
         hists = hs.Hists(
             dataset = [],
-            mMuMu   = (10, 2.0, 4.0),
-            mMuMuBB = (27, 40.0, 175.0),
+            mMuMuBB = mMuMuBB_range,
+            mMuMu   = mMuMu_range,
         )
         events.behavior |= heptools.behavior
 
@@ -35,13 +37,13 @@ class Data(ProcessorABC):
         # select objects
         events['selected_muons'] = events.Muon[
             (abs(events.Muon.eta) < 2.4) &
-            (events.Muon.pt > 4) &
+            (events.Muon.pt > 3) &
             (events.Muon.softId)
         ]
         events['selected_bJets'] = events.Jet[
             (abs(events.Jet.eta) < 2.4) &
-            (events.Jet.btagDeepFlavB > 0.3) & 
-            (events.Jet.pt > 0)
+            (events.Jet.pt > 0) &
+            (events.Jet.btagDeepFlavB > 0.3)
         ]
         events['selected_bJets'] = events.selected_bJets[ak.argsort(events.selected_bJets.pt, ascending=False)]
 
@@ -80,16 +82,8 @@ class Data(ProcessorABC):
         log('selecting J/psi and Z/H')
         # select J/psi and Z/H
         events['diMuon'] = events.diMuon[ak.argsort(events.diMuon.dr, ascending=False)]
-        events['diBJet', 'score'] = events.diBJet.lead_pt.btagDeepFlavB + events.diBJet.subl_pt.btagDeepFlavB
-        events['diBJet'] = events.diBJet[ak.argsort(events.diBJet.score, ascending=False)]
-
-        events['Jpsi'] = events.diMuon[
-            (events.diMuon.mass > 3.0) &
-            (events.diMuon.mass < 3.2)
-        ]
-        events['Jpsi'] = events.Jpsi[ak.argsort(events.Jpsi.dr, ascending=True)]
-
-        events['MuMu'] = where(events['Jpsi'][:, :1], (ak.num(events.Jpsi) == 0, events.diMuon[:, :1]))[:, 0]
+        events['diBJet'] = events.diBJet[ak.argsort(events.diBJet.lead_pt.btagDeepFlavB + events.diBJet.subl_pt.btagDeepFlavB, ascending=False)]
+        events['MuMu'] = events.diMuon[:, 0]
         events['mMuMu'] = events.MuMu.mass
         events['BB'] =  events.diBJet[:, 0]
         events['MuMuBB'] = events.MuMu + events.BB
@@ -110,23 +104,22 @@ class Data(ProcessorABC):
 
         log('filling histograms')
         # histogram
-        dr_r = (60, 0,  6)
-        fp_r = (50, 0,100)
-        fm_r = (20, 0,  5)
-        f_r = {'pt':fp_r, 'pz':fp_r, 'energy':fp_r, 'mass':fm_r}
+        dr_r = (100, 0,   5)
+        fp_r = (150, 0, 150)
+        fpz_r = (150, -150, 150)
+        f_r = {'pt':fp_r, 'pz':fpz_r, 'energy':fp_r, 'mass':fp_r}
         df_r = f_r | {'dr': dr_r}
         bp_r = (100, 0, 200)
-        b_r = {'pt':bp_r, 'pz':bp_r, 'energy':bp_r, 'mass':bp_r}
+        b_r = {'pt':bp_r, 'pz':bp_r, 'energy':bp_r, 'mass':mMuMuBB_range}
 
         fills += hs.Fourvector(('selected_muons', R'Selected $\mu$'), **f_r, count = True)
         fills += hs.Fourvector(('selected_bJets', R'Selected $b$ Jets'), **f_r, count = True)
 
-        fills += hs.DiFourvector(('diMuon', R'$\mu^-\mu^+'), **df_r, count = True)
-        fills += hs.DiFourvector(('diBJet', R'$bb$'), **df_r, count = True)
-        fills += hs.DiFourvector(('Jpsi', R'$J/\psi$'), **df_r, count = True)
-        fills += hs.DiFourvector(('MuMu', R'$Selected \mu^-\mu^+$'), **df_r)
-        fills += hs.DiFourvector(('BB', R'$Selected bb$'), **df_r)
-        fills += hs.Fourvector(('MuMuBB', R'$Selected \mu^-\mu^+bb$'), **b_r)
+        fills += hs.DiFourvector(('diBJet', R'$bb$'), **df_r, ht = fp_r, count = True)
+        fills += hs.DiFourvector(('BB', R'Selected $bb$'), **df_r, ht = fp_r)
+        fills += hs.DiFourvector(('diMuon', R'$\mu^-\mu^+$'), **(df_r | {'mass':mMuMu_range}), ht = fp_r, count = True)
+        fills += hs.DiFourvector(('MuMu', R'Selected $\mu^-\mu^+$'), **(df_r | {'mass':mMuMu_range}), ht = fp_r)
+        fills += hs.Fourvector(('MuMuBB', R'Selected $\mu^-\mu^+bb$'), **b_r)
 
         fills += hs.Fourvector(('BB.lead_pt', '$b$ leading $p_T$'), **f_r)
         fills += hs.Fourvector(('BB.subl_pt', '$b$ sub-leadling $p_T$'), **f_r)
@@ -136,6 +129,7 @@ class Data(ProcessorABC):
         fills += hists.add('MuMu_closest_dr', (*dr_r, ('MuMu_closest.dr', R'$closest $b$ Jet to $\mu^-\mu^+$ $\Delta R$')))
         fills += hists.add('leadMu_closest_dr', (*dr_r, ('leadMu_closest', R'closest $b$ Jet to leading $p_T$ $\mu$ $\Delta R$')))
         fills += hists.add('sublMu_closest_dr', (*dr_r, ('sublMu_closest', R'closest $b$ Jet to sub-leading $p_T$ $\mu$ Jet $\Delta R$')))
+        fills += hists.add('count')
 
         fills(events)
 
