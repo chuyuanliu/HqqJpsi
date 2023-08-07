@@ -69,7 +69,7 @@ class Data(ProcessorABC):
         ]
         events['diBJet'] = dijet.pair(events.selected_bJets, mode = 'combination')
         events['diBJet'] = events.diBJet[
-            (events.diBJet.lead_pt.pt > 40)
+            (events.diBJet.lead_pt.pt > 20)
         ]
 
         ##### cut #####
@@ -81,7 +81,7 @@ class Data(ProcessorABC):
 
         log('selecting J/psi and Z/H')
         # select J/psi and Z/H
-        events['diMuon'] = events.diMuon[ak.argsort(events.diMuon.dr, ascending=False)]
+        events['diMuon'] = events.diMuon[ak.argsort(abs(events.diMuon.mass - 3.1), ascending=True)]
         events['diBJet'] = events.diBJet[ak.argsort(events.diBJet.lead_pt.btagDeepFlavB + events.diBJet.subl_pt.btagDeepFlavB, ascending=False)]
         events['MuMu'] = events.diMuon[:, 0]
         events['mMuMu'] = events.MuMu.mass
@@ -140,17 +140,30 @@ class Data(ProcessorABC):
 
 
 if __name__ == '__main__':
-    run = Runner(
-        executor = futures_executor(workers=4),
-        schema = NanoAODSchema,
-        chunksize = 50_000,
-        xrootdtimeout = 1800,
-    )
-    base = '/nobackup/HqqQuarkonium/data/'
-    base = Path(base)
-    files = {dataset: {
-        'files': [str(base.joinpath(dataset, f'2018{era}', 'picoAOD.root')) for era in 'ABCD']
-    } for dataset in ['Charmonium', 'DoubleMuon']}
-    output = run(files, "Events", processor_instance = Data())
-    log(f'saving histograms')
-    io.save(f'/nobackup/HqqQuarkonium/hists.pkl.gz', output)
+    local = True
+    if local:
+        from coffea.nanoevents import NanoEventsFactory
+        events = NanoEventsFactory.from_root(
+            './TEMP/NanoAOD/Charmonium2018A.root',
+            schemaclass = NanoAODSchema,
+            metadata  = {'dataset': 'Charmonium'},
+            entry_start = 0,
+            entry_stop = 1000,
+        ).events()
+        processor = Data()
+        output = processor.process(events)
+    else:
+        run = Runner(
+            executor = futures_executor(workers=4),
+            schema = NanoAODSchema,
+            chunksize = 50_000,
+            xrootdtimeout = 1800,
+        )
+        base = '/nobackup/HqqQuarkonium/data/'
+        base = Path(base)
+        files = {dataset: {
+            'files': [str(base.joinpath(dataset, f'2018{era}', 'picoAOD.root')) for era in 'ABCD']
+        } for dataset in ['Charmonium', 'DoubleMuon']}
+        output = run(files, "Events", processor_instance = Data())
+        log(f'saving histograms')
+        io.save(f'/nobackup/HqqQuarkonium/hists.pkl.gz', output)
