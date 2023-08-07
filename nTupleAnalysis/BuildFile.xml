@@ -1,0 +1,11 @@
+<use name="boost"/>
+<use name="roottmva"/>
+<use name="rootcore"/>
+<use name="roothistmatrix"/>
+<use name="CommonTools/Utils"/>
+<use name="DataFormats/FWLite"/>
+<use name="nTupleAnalysis/baseClasses"/>
+<export>
+  <lib   name="1"/>
+</export>
+
