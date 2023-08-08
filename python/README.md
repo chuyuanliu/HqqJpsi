@@ -2,7 +2,7 @@
 [run analysis in an interactive shell](https://github.com/ChuyuanLiu/heptools#singularity)
 
     git clone https://github.com/chuyuanliu/HqqJpsi.git
-    cd HqqJpsi
+    cd HqqJpsi/python/
     singularity shell                   `# run a shell within a container`\
     -B /cvmfs                           `# mount cvmfs`\
     -B ~/nobackup:/nobackup             `# mount nobackup dir`\

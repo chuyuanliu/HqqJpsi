@@ -6,14 +6,13 @@ import heptools.hist as hs
 import heptools.io as io
 from coffea.nanoevents import NanoAODSchema
 from coffea.processor import ProcessorABC, Runner, futures_executor
-from heptools.aktools import where
-from heptools.physics.object import jet as dijet
-from heptools.physics.object import muon as dimuon
-from heptools.physics.object import vector as multivector
+from heptools.aktools import sort_field, where
+from heptools.physics.object import jet, muon, select
 
 
 def log(content):
     ...
+    # from datetime import datetime
     # print(datetime.now(), content)
 
 class Gen():
@@ -35,17 +34,17 @@ class Data(ProcessorABC):
 
         log('selecting objects')
         # select objects
-        events['selected_muons'] = events.Muon[
+        events['selected_muons'] = select(events.Muon, 
             (abs(events.Muon.eta) < 2.4) &
             (events.Muon.pt > 3) &
             (events.Muon.softId)
-        ]
-        events['selected_bJets'] = events.Jet[
+        )
+        events['selected_bJets'] = select(events.Jet,
             (abs(events.Jet.eta) < 2.4) &
             (events.Jet.pt > 0) &
-            (events.Jet.btagDeepFlavB > 0.3)
-        ]
-        events['selected_bJets'] = events.selected_bJets[ak.argsort(events.selected_bJets.pt, ascending=False)]
+            (events.Jet.btagDeepFlavB > 0.3),
+            add_index = True)
+        events['selected_bJets'] = sort_field(events.selected_bJets, 'pt')
 
         ##### cut #####
         events = events[
@@ -61,13 +60,13 @@ class Data(ProcessorABC):
 
         log('pairing')
         # pair
-        events['diMuon'] = dimuon.pair(events.selected_muons, mode = 'combination')
+        events['diMuon'] = muon.pair(events.selected_muons, mode = 'combination')
         events['diMuon'] = events.diMuon[
             (events.diMuon.mass > 2) &
             (events.diMuon.mass < 4) &
             (events.diMuon.charge == 0)
         ]
-        events['diBJet'] = dijet.pair(events.selected_bJets, mode = 'combination')
+        events['diBJet'] = jet.pair(events.selected_bJets, mode = 'combination')
         events['diBJet'] = events.diBJet[
             (events.diBJet.lead_pt.pt > 20)
         ]
@@ -81,16 +80,16 @@ class Data(ProcessorABC):
 
         log('selecting J/psi and Z/H')
         # select J/psi and Z/H
-        events['diMuon'] = events.diMuon[ak.argsort(abs(events.diMuon.mass - 3.1), ascending=True)]
-        events['diBJet'] = events.diBJet[ak.argsort(events.diBJet.lead_pt.btagDeepFlavB + events.diBJet.subl_pt.btagDeepFlavB, ascending=False)]
+        events['diMuon'] = events.diMuon[ak.argsort(abs(events.diMuon.mass - 3.1))]
+        events['diBJet'] = events.diBJet[ak.argsort(ak.sum(events.diBJet.constituents.Jet.btagDeepFlavB, axis=2), ascending = False)]
         events['MuMu'] = events.diMuon[:, 0]
         events['mMuMu'] = events.MuMu.mass
         events['BB'] =  events.diBJet[:, 0]
-        events['MuMuBB'] = events.MuMu + events.BB
+        events['MuMuBB'] = jet.extend(events.MuMu, events.BB)
         events['mMuMuBB'] = events.MuMuBB.mass
         events['closest_jet'] = where(events.BB.lead_pt,
                                   (events.MuMu.delta_r(events.BB.lead_pt) > events.MuMu.delta_r(events.BB.subl_pt), events.BB.subl_pt))
-        events['MuMu_closest'] = multivector.pair(events.MuMu, events.closest_jet)
+        events['MuMu_closest'] = jet.extend(events.MuMu, events.closest_jet)
         events['leadMu_closest'] = events.MuMu.lead_pt.delta_r(events.closest_jet)
         events['sublMu_closest'] = events.MuMu.subl_pt.delta_r(events.closest_jet)
 
@@ -144,11 +143,11 @@ if __name__ == '__main__':
     if local:
         from coffea.nanoevents import NanoEventsFactory
         events = NanoEventsFactory.from_root(
-            './TEMP/NanoAOD/Charmonium2018A.root',
+            '../TEMP/NanoAOD/Charmonium2018A.root',
             schemaclass = NanoAODSchema,
             metadata  = {'dataset': 'Charmonium'},
             entry_start = 0,
-            entry_stop = 1000,
+            entry_stop = 100_000,
         ).events()
         processor = Data()
         output = processor.process(events)
