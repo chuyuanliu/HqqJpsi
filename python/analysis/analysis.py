@@ -3,7 +3,7 @@ from pathlib import Path
 import awkward as ak
 import heptools
 import heptools.hist as hs
-import heptools.io as io
+import heptools.system.eos as io
 from coffea.nanoevents import NanoAODSchema
 from coffea.processor import ProcessorABC, Runner, futures_executor
 from heptools.aktools import sort_field, where
@@ -34,7 +34,7 @@ class Data(ProcessorABC):
 
         log('selecting objects')
         # select objects
-        events['selected_muons'] = select(events.Muon, 
+        events['selected_muons'] = select(events.Muon,
             (abs(events.Muon.eta) < 2.4) &
             (events.Muon.pt > 3) &
             (events.Muon.softId)
@@ -133,7 +133,7 @@ class Data(ProcessorABC):
         fills(events)
 
         return hists.output
-    
+
     def postprocess(self, accumulator):
         return super().postprocess(accumulator)
 

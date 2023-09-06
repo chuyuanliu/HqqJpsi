@@ -1,0 +1,2 @@
+root://cmseos.fnal.gov//store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018B/picoAOD_twotag.chunk0.root
+root://cmseos.fnal.gov//store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018B/picoAOD_twotag.chunk1.root

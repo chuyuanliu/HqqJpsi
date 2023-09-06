@@ -1,0 +1,1086 @@
+{
+    "Data": {
+        "Charmonium": {
+            "2018": {
+                "A": {
+                    "picoAOD_antitag": {
+                        "files": [
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_antitag.chunk0.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_antitag.chunk1.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_antitag.chunk2.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_antitag.chunk3.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_antitag.chunk4.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_antitag.chunk5.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_antitag.chunk6.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_antitag.chunk7.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_antitag.chunk8.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_antitag.chunk9.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_antitag.chunk10.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_antitag.chunk11.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_antitag.chunk12.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_antitag.chunk13.root",
+                                "nevents": 201710,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            }
+                        ]
+                    },
+                    "picoAOD_twotag": {
+                        "files": [
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_twotag.chunk0.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_twotag.chunk1.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_twotag.chunk2.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_twotag.chunk3.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_twotag.chunk4.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_twotag.chunk5.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_twotag.chunk6.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_twotag.chunk7.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_twotag.chunk8.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_twotag.chunk9.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_twotag.chunk10.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_twotag.chunk11.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_twotag.chunk12.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_twotag.chunk13.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018A/picoAOD_twotag.chunk14.root",
+                                "nevents": 563929,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "B": {
+                    "picoAOD_antitag": {
+                        "files": [
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018B/picoAOD_antitag.chunk0.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018B/picoAOD_antitag.chunk1.root",
+                                "nevents": 250821,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            }
+                        ]
+                    },
+                    "picoAOD_twotag": {
+                        "files": [
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018B/picoAOD_twotag.chunk0.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018B/picoAOD_twotag.chunk1.root",
+                                "nevents": 400002,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "C": {
+                    "picoAOD_antitag": {
+                        "files": [
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk0.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk1.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk2.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk3.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk4.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk5.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk6.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk7.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk8.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk9.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk10.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk11.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk12.root",
+                                "nevents": 956708,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            }
+                        ]
+                    },
+                    "picoAOD_twotag": {
+                        "files": [
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_twotag.chunk0.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_twotag.chunk1.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_twotag.chunk2.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_twotag.chunk3.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_twotag.chunk4.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_twotag.chunk5.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_twotag.chunk6.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_twotag.chunk7.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_twotag.chunk8.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_twotag.chunk9.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_twotag.chunk10.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_twotag.chunk11.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_twotag.chunk12.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_twotag.chunk13.root",
+                                "nevents": 712789,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "D": {
+                    "picoAOD_antitag": {
+                        "files": [
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk0.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk1.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk2.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk3.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk4.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk5.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk6.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk7.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk8.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk9.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk10.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk11.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk12.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk13.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk14.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk15.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk16.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk17.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk18.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk19.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk20.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk21.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk22.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk23.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk24.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_antitag.chunk25.root",
+                                "nevents": 103511,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            }
+                        ]
+                    },
+                    "picoAOD_twotag": {
+                        "files": [
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk0.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk1.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk2.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk3.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk4.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk5.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk6.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk7.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk8.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk9.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk10.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk11.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk12.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk13.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk14.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk15.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk16.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk17.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk18.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk19.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk20.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk21.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk22.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk23.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk24.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018D/picoAOD_twotag.chunk25.root",
+                                "nevents": 584227,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "DoubleMuon": {
+            "2018": {
+                "A": {
+                    "picoAOD_antitag": {
+                        "files": [
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018A/picoAOD_antitag.chunk0.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018A/picoAOD_antitag.chunk1.root",
+                                "nevents": 262906,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            }
+                        ]
+                    },
+                    "picoAOD_twotag": {
+                        "files": [
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018A/picoAOD_twotag.chunk0.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018A/picoAOD_twotag.chunk1.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018A/picoAOD_twotag.chunk2.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018A/picoAOD_twotag.chunk3.root",
+                                "nevents": 122348,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "B": {
+                    "picoAOD_antitag": {
+                        "files": [
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018B/picoAOD_antitag.chunk0.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018B/picoAOD_antitag.chunk1.root",
+                                "nevents": 63250,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            }
+                        ]
+                    },
+                    "picoAOD_twotag": {
+                        "files": [
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018B/picoAOD_twotag.chunk0.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018B/picoAOD_twotag.chunk1.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018B/picoAOD_twotag.chunk2.root",
+                                "nevents": 566750,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "C": {
+                    "picoAOD_antitag": {
+                        "files": [
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018C/picoAOD_antitag.chunk0.root",
+                                "nevents": 909143,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            }
+                        ]
+                    },
+                    "picoAOD_twotag": {
+                        "files": [
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018C/picoAOD_twotag.chunk0.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018C/picoAOD_twotag.chunk1.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018C/picoAOD_twotag.chunk2.root",
+                                "nevents": 151596,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "D": {
+                    "picoAOD_antitag": {
+                        "files": [
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018D/picoAOD_antitag.chunk0.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018D/picoAOD_antitag.chunk1.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018D/picoAOD_antitag.chunk2.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018D/picoAOD_antitag.chunk3.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018D/picoAOD_antitag.chunk4.root",
+                                "nevents": 82029,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            }
+                        ]
+                    },
+                    "picoAOD_twotag": {
+                        "files": [
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018D/picoAOD_twotag.chunk0.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018D/picoAOD_twotag.chunk1.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018D/picoAOD_twotag.chunk2.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018D/picoAOD_twotag.chunk3.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018D/picoAOD_twotag.chunk4.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018D/picoAOD_twotag.chunk5.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018D/picoAOD_twotag.chunk6.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018D/picoAOD_twotag.chunk7.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018D/picoAOD_twotag.chunk8.root",
+                                "nevents": 1000000,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            },
+                            {
+                                "path": "/store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018D/picoAOD_twotag.chunk9.root",
+                                "nevents": 146482,
+                                "site": [
+                                    "root://cmseos.fnal.gov/"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

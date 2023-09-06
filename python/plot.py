@@ -96,7 +96,7 @@ def plot_all():
                 selection[category] = slice(0, bins, bins * 1j)
         if not label:
             label = ['all']
-        return (', '.join(label), 
+        return (', '.join(label),
                 hist[selection][{m: 0 for m in mass}].project(*(axis.name for axis in hist.axes if axis.name not in categories)))
 
     regions = {

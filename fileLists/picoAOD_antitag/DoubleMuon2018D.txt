@@ -1,0 +1,5 @@
+root://cmseos.fnal.gov//store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018D/picoAOD_antitag.chunk0.root
+root://cmseos.fnal.gov//store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018D/picoAOD_antitag.chunk1.root
+root://cmseos.fnal.gov//store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018D/picoAOD_antitag.chunk2.root
+root://cmseos.fnal.gov//store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018D/picoAOD_antitag.chunk3.root
+root://cmseos.fnal.gov//store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018D/picoAOD_antitag.chunk4.root

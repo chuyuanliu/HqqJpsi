@@ -1,0 +1,13 @@
+root://cmseos.fnal.gov//store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk0.root
+root://cmseos.fnal.gov//store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk1.root
+root://cmseos.fnal.gov//store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk2.root
+root://cmseos.fnal.gov//store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk3.root
+root://cmseos.fnal.gov//store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk4.root
+root://cmseos.fnal.gov//store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk5.root
+root://cmseos.fnal.gov//store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk6.root
+root://cmseos.fnal.gov//store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk7.root
+root://cmseos.fnal.gov//store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk8.root
+root://cmseos.fnal.gov//store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk9.root
+root://cmseos.fnal.gov//store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk10.root
+root://cmseos.fnal.gov//store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk11.root
+root://cmseos.fnal.gov//store/user/chuyuanl/HqqJpsi/Data/Charmonium/2018C/picoAOD_antitag.chunk12.root

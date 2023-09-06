@@ -1,0 +1,1 @@
+root://cmseos.fnal.gov//store/user/chuyuanl/HqqJpsi/Data/DoubleMuon/2018C/picoAOD_antitag.chunk0.root

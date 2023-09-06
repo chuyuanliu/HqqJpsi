@@ -1,64 +1,53 @@
 import os
-from collections import defaultdict
-from pathlib import Path
+import warnings
+from datetime import datetime
 
-import awkward as ak
-import heptools
-import heptools.io as io
-from coffea.processor import (NanoAODSchema, ProcessorABC, Runner,
-                              futures_executor)
-from heptools.io.dataset import Dataset
-from heptools.io.selection import Selection
-from heptools.physics.object import muon as dimuon
+from dask.distributed import Client
+from heptools.cms import LPC
+from heptools.dataset import Dataset
+from heptools.system.cluster import HTCondor
+from heptools.task import create_picoaod_from_dataset, merge_chunks
+from rich import print
+from skim import AntiTag, TwoTag
 
+warnings.filterwarnings('ignore', message='invalid value encountered in sqrt')
 
-class Skim(ProcessorABC):
-    def process(self, events):
-        dataset = events.metadata['dataset']
-        selection = Selection()
-        events.behavior |= heptools.behavior
-        selection.add('all', events.event, True)
-        events['selected_muons'] = events.Muon[abs(events.Muon.eta < 2.4)]
-        events['selected_muons'] = events.selected_muons[ak.argsort(events.selected_muons.pt, ascending=False)]
-        events['bJets'] = events.Jet[(events.Jet.btagDeepFlavB > 0.3) & (abs(events.Jet.eta) < 2.4)]
-        events['bJets'] = events.bJets[ak.argsort(events.bJets.pt, ascending=False)]
-        mu2_events = events[ak.num(events.selected_muons) >= 2]
-        mu2_events['Dimu'] = dimuon.pair(mu2_events.selected_muons, mode = 'combination')
-        selection.add('2mu_eta_2p4__1Jpsi_m_2GeV_4GeV', mu2_events.event, ak.any(
-            (mu2_events.Dimu.mass > 2) &
-            (mu2_events.Dimu.mass < 4) &
-            (mu2_events.Dimu.charge == 0), axis=-1))
-        b2_events = events[ak.num(events.bJets) >= 2]
-        selection.add('2jet_b_0p3_eta_2p4_1pT_20GeV', b2_events.event, b2_events.bJets.pt[:,0] > 20)
-        return {dataset: selection}
+def in_fnal(file):
+    return 'T1_US_FNAL_Disk' in file.site
 
-    def postprocess(self, accumulator):
-        ...
+def run_skim(base):
+    dataset = Dataset.load('datasets/data_NanoAOD.json')
+    create_picoaod_from_dataset(base, dataset, twotag = TwoTag()).save('datasets/skim_twotag.json')
+    create_picoaod_from_dataset(base, dataset, antitag = AntiTag()).save('datasets/skim_antitag.json')
+
+def run_merge(base):
+    dataset = (Dataset.load('datasets/skim_antitag.json') +
+               Dataset.load('datasets/skim_twotag.json'))
+    merge_chunks(base, dataset, '1M', '0.1M').save('datasets/data_PicoAOD.json')
+    os.remove('datasets/skim_antitag.json')
+    os.remove('datasets/skim_twotag.json')
 
 if __name__ == '__main__':
-    tag = ''
-    base = '/nobackup/HqqQuarkonium/data/'
-    data = Dataset().load('./dataset/data.json')
-    def in_fnal(file):
-        return 'T1_US_FNAL_Disk' in file.site
-    base = Path(base)
-    url = 'root://cmsxrootd.fnal.gov/'
-    for dataset in ['Charmonium', 'DoubleMuon']:
-        for era in 'ABCD':
-            if not os.path.exists(base.joinpath(dataset, f'2018{era}', f'nano_skim{tag}.pkl.gz')):
-                subset = data.subset(file = in_fnal, dataset = dataset, era = era)
-                fileset = defaultdict(list)
-                for metadata, file in subset.files:
-                    _, _, year, _, _, = metadata
-                    fileset[f'{dataset}/{year}/{era}/'].append(url + file)
-                    base.joinpath(dataset, year, era).mkdir(parents=True, exist_ok=True)
-                run = Runner(
-                    executor = futures_executor(workers=4),
-                    schema = NanoAODSchema,
-                    chunksize = 1_000_000,
-                    xrootdtimeout = 1800,
-                )
-                output = run(fileset, "Events", processor_instance = Skim())
-                for k, v in output.items():
-                    io.save(base.joinpath(k, f'nano_skim{tag}.pkl.gz'), v)
-                    print(k)
+    start = datetime.now()
+    LPC.setup_condor()
+    base = LPC.eos / 'user/chuyuanl/HqqJpsi/'
+    cluster = HTCondor(
+        dashboard_port=10200,
+        name = 'HqqJpsi_merge',
+        cores = 1,
+        memory = '4GB',
+        inputs = [
+            'config.py',
+            'skim',
+            'lumiMasks'
+        ])
+    print(cluster.check_inputs().rich)
+    print(cluster.dashboard(8787))
+    print(cluster.cluster.job_script())
+    cluster.cluster.adapt(minimum_jobs = 0, maximum_jobs = 100)
+    client = Client(cluster.cluster)
+    client.forward_logging()
+    run_skim(base)
+    run_merge(base)
+    cluster.clean()
+    print((datetime.now() - start))
