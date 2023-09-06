@@ -10,18 +10,9 @@ from heptools.aktools import sort_field, where
 from heptools.physics.object import jet, muon, select
 
 
-def log(content):
-    ...
-    # from datetime import datetime
-    # print(datetime.now(), content)
-
-class Gen():
-    ...
-
 class Data(ProcessorABC):
     def process(self, events: ak.Array):
         events = events
-        log('initializing')
         fills = hs.Fill(dataset = events.metadata['dataset'], weight = 1)
         mMuMu_range = (10, 2.0, 4.0)
         mMuMuBB_range = (27, 40.0, 175.0)
@@ -32,7 +23,6 @@ class Data(ProcessorABC):
         )
         events.behavior |= heptools.behavior
 
-        log('selecting objects')
         # select objects
         events['selected_muons'] = select(events.Muon,
             (abs(events.Muon.eta) < 2.4) &
@@ -58,7 +48,6 @@ class Data(ProcessorABC):
         ]
         ###############
 
-        log('pairing')
         # pair
         events['diMuon'] = muon.pair(events.selected_muons, mode = 'combination')
         events['diMuon'] = events.diMuon[
@@ -78,7 +67,6 @@ class Data(ProcessorABC):
         ]
         ###############
 
-        log('selecting J/psi and Z/H')
         # select J/psi and Z/H
         events['diMuon'] = events.diMuon[ak.argsort(abs(events.diMuon.mass - 3.1))]
         events['diBJet'] = events.diBJet[ak.argsort(ak.sum(events.diBJet.constituents.Jet.btagDeepFlavB, axis=2), ascending = False)]
@@ -101,7 +89,6 @@ class Data(ProcessorABC):
             (events.mMuMuBB > 145)
         ]
 
-        log('filling histograms')
         # histogram
         dr_r = (100, 0,   5)
         fp_r = (150, 0, 150)
@@ -164,5 +151,4 @@ if __name__ == '__main__':
             'files': [str(base.joinpath(dataset, f'2018{era}', 'picoAOD.root')) for era in 'ABCD']
         } for dataset in ['Charmonium', 'DoubleMuon']}
         output = run(files, "Events", processor_instance = Data())
-        log(f'saving histograms')
         io.save(f'/nobackup/HqqQuarkonium/hists.pkl.gz', output)

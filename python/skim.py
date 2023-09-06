@@ -6,7 +6,7 @@ from dask.distributed import Client
 from heptools.cms import LPC
 from heptools.dataset import Dataset
 from heptools.system.cluster import HTCondor
-from heptools.task import create_picoaod_from_dataset, merge_chunks
+from heptools.workflow import create_picoaod_from_dataset, merge_chunks
 from rich import print
 from skim import AntiTag, TwoTag
 
