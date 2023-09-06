@@ -1,9 +1,9 @@
 # TODO generilize
 import gzip
 import os
+import pickle
 from pathlib import Path
 
-import dill as pickle
 import matplotlib.pyplot as plt
 import mplhep as mpl
 import numpy as np

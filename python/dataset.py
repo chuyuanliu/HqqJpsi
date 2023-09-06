@@ -1,6 +1,6 @@
 import numpy as np
 from heptools.cms import DAS
-from heptools.root.dataset import Dataset, FileList
+from heptools.dataset import Dataset, FileList
 
 np.finfo(np.dtype("float64"))
 
