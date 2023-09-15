@@ -1,6 +1,6 @@
-from .antitag import AntiTag
-from .config import ZHqqJpsi
-from .twotag import TwoTag
+from .configs import LooseSkim
+from .processors.data.antitag import AntiTag
+from .processors.data.twotag import TwoTag
 
 __all__ = ['AntiTag', 'TwoTag',
-           'ZHqqJpsi']
+           'LooseSkim']
