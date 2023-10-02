@@ -8,7 +8,7 @@ from heptools.dataset import Dataset
 from heptools.system.cluster import HTCondor
 from heptools.workflow import create_picoaod_from_dataset, merge_chunks
 from rich import print
-from skim import AntiTag, TwoTag
+from skim.processors import DataAntiTag, DataTwoTag
 
 warnings.filterwarnings('ignore', message='invalid value encountered in sqrt')
 
@@ -17,8 +17,8 @@ def in_fnal(file):
 
 def run_skim(base):
     dataset = Dataset.load('datasets/data_NanoAOD.json')
-    create_picoaod_from_dataset(base, dataset, twotag = TwoTag()).save('datasets/skim_twotag.json')
-    create_picoaod_from_dataset(base, dataset, antitag = AntiTag()).save('datasets/skim_antitag.json')
+    create_picoaod_from_dataset(base, dataset, twotag = DataTwoTag()).save('datasets/skim_twotag.json')
+    create_picoaod_from_dataset(base, dataset, antitag = DataAntiTag()).save('datasets/skim_antitag.json')
 
 def run_merge(base):
     dataset = (Dataset.load('datasets/skim_antitag.json') +

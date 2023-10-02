@@ -15,12 +15,23 @@ from matplotlib.colors import LogNorm
 from matplotlib.patches import Rectangle
 
 HLT_all = Charmonium.hlt + ['Failed']
-ntags_all = {
-    'TwoTag_2018': ['b2_c2', 'b2_only', 'c2_only'],
-    'OneTag_2018': ['b1_c1', 'b1_c0', 'c1_b0'],
-    'ZeroTag_2018': ['b0_c0'],
-}
-
+ntag_groups = [
+    {
+        'TwoTag_2018': 'b2_c2',
+        'OneTag_2018': 'b1_c1',
+        'ZeroTag_2018': 'b0_c0',
+    },
+    {
+        'TwoTag_2018': 'b2_only',
+        'OneTag_2018': 'b1_c0',
+        'ZeroTag_2018': 'b0_c0',
+    },
+    {
+        'TwoTag_2018': 'c2_only',
+        'OneTag_2018': 'c1_b0',
+        'ZeroTag_2018': 'b0_c0',
+    }
+]
 
 warnings.filterwarnings('ignore')
 plt.style.use(mpl.style.CMS)
@@ -32,9 +43,9 @@ _float_error = 1e-10
 
 text2tex = {
     'mMuMu': R'$m_{\mu^-\mu^+}$',
-    'mJJMuMu': R'$m_{\mu^-\mu^+jj}$',
+    'mJJMuMu': R'$m_{\mu^-\mu^+b\bar{b}}$',
     'Mmumu': R'$m_{\mu^-\mu^+}$',
-    'Mjjmumu': R'$m_{\mu^-\mu^+jj}$',
+    'Mjjmumu': R'$m_{\mu^-\mu^+b\bar{b}}$',
 }
 blinded = ['TwoTag_2018']
 def latex(text: str):
@@ -111,13 +122,17 @@ def plot_count(path: Path, name: str, hist: Hist, *rects: dict[str, tuple[float,
     plt.savefig(path)
     plt.close()
 
-def plot_all(file):
-    path_plot = Path(f'../TEMP/hists/fig/{file}{"_density" if density else ""}')
-    h = pickle.load(gzip.open(f'../TEMP/hists/packed/hists_{file}.pkl.gz', 'rb'))
-    categories = h['categories']
-    h: dict[str, Hist] = h['hists']
+def plot_all(name, group):
+    path_plot = Path(f'../TEMP/hists/fig/{name}{"_density" if density else ""}')
+    h: dict[str, dict[str, Hist]] = {}
+    h_names = set()
+    for file in group:
+        loaded = pickle.load(gzip.open(f'../TEMP/hists/packed/hists_{file}.pkl.gz', 'rb'))
+        categories = loaded['categories']
+        h[file] = loaded['hists']
+        h_names |= set(loaded['hists'].keys())
 
-    categories = {axis.name: axis for axis in h['count'].axes if axis.name in categories}
+    categories = {axis.name: axis for axis in next(iter(h.values()))['count'].axes if axis.name in categories}
 
     def projection(hist: Hist, selection: dict[str, str], **mass: tuple[float, float]):
         for m in mass:
@@ -143,30 +158,29 @@ def plot_all(file):
         'inclusive': {},
         'SR': {'mMuMu': (3.0, 3.2), 'mJJMuMu': (70, 145)},
     }
-    count_cat = h['count'][
+    count_cat = {file: h[file]['count'][
         {'mMuMu': slice(0, 3, 3j), 'mJJMuMu': slice(0, 3, 3j)}][
         {'mMuMu': 0, 'mJJMuMu': 0}
-    ]
-    plot_1d(path_plot, 'HLT', rotate = 10, HLT = count_cat.project('HLT'))
-    plot_1d(path_plot, 'HLT_ntags', rotate = 10, **{ntags: count_cat[{'ntags': ntags}].project('HLT') for ntags in ntags_all[file]})
-    plot_1d(path_plot, 'ntags_HLT', **{hlt: count_cat[{'HLT': hlt}].project('ntags') for hlt in HLT_all})
+    ] for file in h}
+    plot_1d(path_plot, 'HLT', rotate = 10, **{ntags: count_cat[file][{'ntags':ntags}].project('HLT') for file, ntags in group.items()})
     for hlt in HLT_all:
-        count = h['count'][{'HLT': hlt}].project('mJJMuMu', 'mMuMu')
-        for region in regions:
-            plot_count(path_plot.joinpath(hlt, region), 'mJJMuMu_mMuMu', count, regions[region])
-        for k in h:
+        for k in h_names:
             if k == 'count':
                 continue
-            if len(h[k].axes) == len(categories) + 1:
+            sample = None
+            for file in h:
+                if k in h[file]:
+                    sample = h[file][k]
+            if sample is None:
+                continue
+            if len(sample.axes) == len(categories) + 1:
                 plot = plot_1d
-            elif len(h[k].axes) == len(categories) + 2:
+            elif len(sample.axes) == len(categories) + 2:
                 plot = plot_2d
             else:
                 continue
             for region in regions:
-                if region == 'SR' and file in blinded:
-                    continue
-                plot(path_plot.joinpath(hlt, region), k, **{ntags: projection(h[k], {'HLT': hlt, 'ntags': ntags}, **regions[region]) for ntags in ntags_all[file]})
+                plot(path_plot.joinpath(hlt, region), k, **{ntags: projection(h[file][k], {'HLT': hlt, 'ntags': ntags}, **regions[region]) for file, ntags in group.items() if (k in h[file]) and not (file in blinded and region == 'SR') })
 
-for file in ['TwoTag_2018', 'OneTag_2018', 'ZeroTag_2018']:
-    plot_all(file)
+for group in ntag_groups:
+    plot_all(group['TwoTag_2018'], group)
