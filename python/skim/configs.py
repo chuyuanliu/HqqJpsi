@@ -9,6 +9,6 @@ class LooseSkim(Config):
     tag_DeepJetCvB: float = 0.2670 # T
 
     pt_jet_lead: float = 20.0
-    pt_jet: float = 10.0
+    pt_jet: float = 15.0 # NanoAOD
 
     eta: float = 2.4

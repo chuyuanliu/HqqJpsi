@@ -18,8 +18,8 @@ class ZHqqJpsi(Config):
     tag_muon_cutID: Optional[str] = 'softId'
 
     pt_jet_lead: float = 20.0
-    pt_jet: float = 10.0
-    pt_muon: float = 0.0
+    pt_jet: float = 15.0 # NanoAOD
+    pt_muon: float = 3.0 # NanoAOD
     eta: float = 2.4
 
     mass_mumu_SR  : tuple[float, float] = (3.0, 3.2)

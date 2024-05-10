@@ -3,7 +3,7 @@ import heptools
 from coffea.lumi_tools import LumiMask
 from coffea.processor import ProcessorABC
 from heptools.root import Selection
-from heptools.utils import sequence_call
+from heptools.utils import seqcall
 
 from ..configs import LooseSkim
 from .common import select_jet_loose, select_Jpsi_loose
@@ -25,7 +25,7 @@ def init_data(events: ak.Array):
 class TwoTag(ProcessorABC):
     def process(self, events):
         selected = Selection()
-        events = sequence_call(
+        events = seqcall(
             init_data,
             select_Jpsi_loose,
             select_jet_loose,
@@ -50,7 +50,7 @@ class TwoTag(ProcessorABC):
 class AntiTag(ProcessorABC):
     def process(self, events):
         selected = Selection()
-        events = sequence_call(
+        events = seqcall(
             init_data,
             select_Jpsi_loose,
             select_jet_loose,

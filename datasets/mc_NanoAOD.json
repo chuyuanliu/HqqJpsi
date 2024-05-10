@@ -1,0 +1,2315 @@
+{
+    "MC": {
+        "GluGluHToBB": {
+            "2018": {
+                "": {
+                    "NanoAODv9": {
+                        "files": [
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToBB_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/60000/66C32525-E45E-A94D-8E0A-3F9414752C9E.root",
+                                "nevents": 933240,
+                                "site": [
+                                    "T2_RU_JINR",
+                                    "T2_US_Caltech",
+                                    "T1_FR_CCIN2P3_Disk",
+                                    "T2_US_Vanderbilt",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_IT_Pisa",
+                                    "T2_CH_CERN"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToBB_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/60000/FC0013E6-E4D7-FA42-B41C-532B3D6FED53.root",
+                                "nevents": 999900,
+                                "site": [
+                                    "T2_RU_JINR",
+                                    "T2_US_Caltech",
+                                    "T1_FR_CCIN2P3_Disk",
+                                    "T2_US_Vanderbilt",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_IT_Pisa",
+                                    "T2_CH_CERN"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToBB_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/60000/7F59532A-E68A-EC47-A58C-1683FEB41776.root",
+                                "nevents": 1599840,
+                                "site": [
+                                    "T2_RU_JINR",
+                                    "T2_US_Caltech",
+                                    "T1_FR_CCIN2P3_Disk",
+                                    "T2_US_Vanderbilt",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_IT_Pisa",
+                                    "T2_CH_CERN"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToBB_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/60000/B094F8E6-EEEF-234F-A55C-5806966F7B4D.root",
+                                "nevents": 1466808,
+                                "site": [
+                                    "T2_RU_JINR",
+                                    "T2_US_Caltech",
+                                    "T1_FR_CCIN2P3_Disk",
+                                    "T2_US_Vanderbilt",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_IT_Pisa",
+                                    "T2_CH_CERN"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToBB_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/60000/9E5D42B9-E40F-AC47-80FC-E5B35AF6B913.root",
+                                "nevents": 599940,
+                                "site": [
+                                    "T2_RU_JINR",
+                                    "T2_US_Caltech",
+                                    "T1_FR_CCIN2P3_Disk",
+                                    "T2_US_Vanderbilt",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_IT_Pisa",
+                                    "T2_CH_CERN"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToBB_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/60000/A65980AC-D04B-A940-9D71-51EA2FB01363.root",
+                                "nevents": 999900,
+                                "site": [
+                                    "T2_RU_JINR",
+                                    "T2_US_Caltech",
+                                    "T1_FR_CCIN2P3_Disk",
+                                    "T2_US_Vanderbilt",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_IT_Pisa",
+                                    "T2_CH_CERN"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToBB_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/60000/9E8DDABA-CCAE-E242-960D-4D720531A9AA.root",
+                                "nevents": 1733160,
+                                "site": [
+                                    "T2_RU_JINR",
+                                    "T2_US_Caltech",
+                                    "T1_FR_CCIN2P3_Disk",
+                                    "T2_US_Vanderbilt",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_IT_Pisa",
+                                    "T2_CH_CERN"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToBB_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/60000/910968BB-BE78-CE4F-A387-38E67132482F.root",
+                                "nevents": 933240,
+                                "site": [
+                                    "T2_RU_JINR",
+                                    "T2_US_Caltech",
+                                    "T1_FR_CCIN2P3_Disk",
+                                    "T2_US_Vanderbilt",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_IT_Pisa",
+                                    "T2_CH_CERN"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToBB_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/60000/8556E8E0-22F3-9C44-B4CF-29AAB7A80348.root",
+                                "nevents": 1733160,
+                                "site": [
+                                    "T2_RU_JINR",
+                                    "T2_US_Caltech",
+                                    "T1_FR_CCIN2P3_Disk",
+                                    "T2_US_Vanderbilt",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_IT_Pisa",
+                                    "T2_CH_CERN"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToBB_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/60000/0E6072EE-1468-9245-AA0B-36A932AAB072.root",
+                                "nevents": 1733160,
+                                "site": [
+                                    "T2_RU_JINR",
+                                    "T2_US_Caltech",
+                                    "T1_FR_CCIN2P3_Disk",
+                                    "T2_US_Vanderbilt",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_IT_Pisa",
+                                    "T2_CH_CERN"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToBB_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/60000/75C5293E-F177-5144-B495-1E3499E51071.root",
+                                "nevents": 1266540,
+                                "site": [
+                                    "T2_RU_JINR",
+                                    "T2_US_Caltech",
+                                    "T1_FR_CCIN2P3_Disk",
+                                    "T2_US_Vanderbilt",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_IT_Pisa",
+                                    "T2_CH_CERN"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToBB_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/60000/A467ABFE-FAA0-3749-B690-8DA1C11174BA.root",
+                                "nevents": 862540,
+                                "site": [
+                                    "T2_RU_JINR",
+                                    "T2_US_Caltech",
+                                    "T1_FR_CCIN2P3_Disk",
+                                    "T2_US_Vanderbilt",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_IT_Pisa",
+                                    "T2_CH_CERN"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "GluGluHToCC": {
+            "2018": {
+                "": {
+                    "NanoAODv9": {
+                        "files": [
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/974C0A25-A198-0040-B9EC-7BFA08F90288.root",
+                                "nevents": 56078,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP",
+                                    "T1_ES_PIC_Disk"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/9CC598DA-4658-934E-9D53-59AB5D2A956C.root",
+                                "nevents": 2604,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP",
+                                    "T1_ES_PIC_Disk"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/4036453B-ADDC-6B41-85A8-F6B084BBF9A4.root",
+                                "nevents": 145824,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/AA0FFA47-EAF1-D04C-8B88-578D433EEF03.root",
+                                "nevents": 141918,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/9E335481-F581-2B4B-B6A0-891448503D6D.root",
+                                "nevents": 141050,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/6A0524BF-FB81-D746-BF22-5C6D8C3273EB.root",
+                                "nevents": 138446,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/2A06DF13-B540-0040-BEC4-6B14871E6322.root",
+                                "nevents": 154070,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/7A0B282E-B53F-EF4F-AD7B-A20C53235F02.root",
+                                "nevents": 180110,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/D0E25F8C-D9C4-9640-8186-1E8DC1EB6CE7.root",
+                                "nevents": 186620,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/FD1D9674-2051-644F-8476-4BE43EF406B3.root",
+                                "nevents": 197904,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/CADA2AE8-17C2-CA47-ADA5-565B5189EA61.root",
+                                "nevents": 152768,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/447F0D56-A7DA-5D49-8BC1-147CF4AED193.root",
+                                "nevents": 275156,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/1A76FBEA-D913-5842-B165-274DF882182B.root",
+                                "nevents": 275156,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/8FA8C8F4-C2A5-B84E-9081-EEE786403A0C.root",
+                                "nevents": 2170,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/0D19956B-83C3-9C47-831F-601651B9A8F3.root",
+                                "nevents": 123256,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/D5533D44-AEA0-EE4C-AEB8-394D24DA9340.root",
+                                "nevents": 40362,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/F760BD5F-74FB-E94A-AECE-6B06D93B499F.root",
+                                "nevents": 141918,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/CC451E39-2F1D-8848-928A-645D9B62CD2A.root",
+                                "nevents": 138880,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/D9AA89AE-EA07-654F-9B08-73D196FC3B2C.root",
+                                "nevents": 156240,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/DF3F4963-888C-2D4D-823B-83EDD9BDE2C9.root",
+                                "nevents": 143654,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/34F6D5D7-9D8B-334E-95B6-C034C6216424.root",
+                                "nevents": 131936,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/78266991-1F5F-6748-951C-BBC15576F797.root",
+                                "nevents": 434,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/1B28FA13-88D5-3047-BCDD-2DC54BC749DD.root",
+                                "nevents": 138012,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/9955A4D1-C03D-8D41-BC76-9C3C637B36BB.root",
+                                "nevents": 40796,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/6C27F427-64FA-644F-9211-C5D7A788AB37.root",
+                                "nevents": 142786,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/824D09CE-378A-BC45-A937-62AE62D5C755.root",
+                                "nevents": 157108,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/476DF223-A32F-354E-8BE5-C4D8B30B8F0B.root",
+                                "nevents": 69440,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_DE_RWTH",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/DBE167DE-DDC1-4041-B5BB-27EB9C76B4F6.root",
+                                "nevents": 434,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_DE_RWTH",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/BACCABD0-260B-524B-96BB-A42346ED8801.root",
+                                "nevents": 73346,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_DE_RWTH",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/3A3A8BB1-02FE-E743-BDC2-DDEA3A1BF0C5.root",
+                                "nevents": 5642,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_DE_RWTH",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/2A21245F-5899-9E46-852F-02F22F31E1E9.root",
+                                "nevents": 68572,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_FR_CCIN2P3_Disk",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/60000/101F820D-2CFF-5E4E-B40E-33B6B4A1B927.root",
+                                "nevents": 14322,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_FR_CCIN2P3_Disk",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/453DEF0E-0C9D-FE4A-A826-9BD732E9AC8A.root",
+                                "nevents": 139314,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_FR_CCIN2P3_Disk",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/8DB2BD80-83AD-3B4F-A230-8093097189B6.root",
+                                "nevents": 42966,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_FR_CCIN2P3_Disk",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/AC6BDF91-327D-2A4C-ACC3-55BD83C98740.root",
+                                "nevents": 868,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP",
+                                    "T1_UK_RAL_Disk"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/9EE62C78-F480-5742-976E-74586115770C.root",
+                                "nevents": 22134,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP",
+                                    "T1_UK_RAL_Disk"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/478F5FB7-738C-354F-9DF5-33B3CCD95DB0.root",
+                                "nevents": 140182,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/F87E192A-B6E6-4545-A057-49069958ED20.root",
+                                "nevents": 11718,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/8DCB4078-08FC-D947-96B1-E4704A5CDD88.root",
+                                "nevents": 434,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_UK_London_IC",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/E596A49F-6B23-A541-93F3-3450E6DB3924.root",
+                                "nevents": 134974,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_UK_London_IC",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/5551931B-55D7-8D4F-A549-3FB55009C0C6.root",
+                                "nevents": 36456,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_UK_London_IC",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/00C2FD54-0D78-4C4C-927E-5F06E39C9EF4.root",
+                                "nevents": 434,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP",
+                                    "T2_BR_SPRACE"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/3EEBDE08-709E-A147-B62E-786CD724620A.root",
+                                "nevents": 5208,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP",
+                                    "T2_BR_SPRACE"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/275D732D-8D44-5C46-887C-568C1E7736CE.root",
+                                "nevents": 434,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_ES_CIEMAT",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/1057B645-2775-504A-B482-C8C3BD604858.root",
+                                "nevents": 6076,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_ES_CIEMAT",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/CA190FEB-9B41-3F4F-BAC8-6447F6981116.root",
+                                "nevents": 2170,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP",
+                                    "T2_CH_CERN"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/98A07362-435A-914E-B5C0-27D436E57E8E.root",
+                                "nevents": 140182,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/ED6D2445-426F-2B45-994D-7530CF12992F.root",
+                                "nevents": 3038,
+                                "site": [
+                                    "T2_US_Wisconsin",
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/02FDEE7D-5408-2843-BDC1-5B02F943D687.root",
+                                "nevents": 38192,
+                                "site": [
+                                    "T2_US_Wisconsin",
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/FC452C76-D1E0-9049-94AF-C7DD3E15AF39.root",
+                                "nevents": 434,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_US_Nebraska",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/3DBC04D4-E54A-0640-85FD-117E81187254.root",
+                                "nevents": 62062,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_US_Nebraska",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/334A7EA6-8B23-CC43-8B99-E0F07A46790C.root",
+                                "nevents": 14322,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP",
+                                    "T1_ES_PIC_Disk"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/D73C8243-8F1D-B145-AABD-A90B60F8B5C9.root",
+                                "nevents": 4774,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP",
+                                    "T1_RU_JINR_Disk"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/C1B4FA46-3DDE-314B-9F71-A2D724B7242A.root",
+                                "nevents": 42098,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP",
+                                    "T1_ES_PIC_Disk"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/05615D0C-D3DF-FE45-A66C-99120A90B274.root",
+                                "nevents": 62496,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP",
+                                    "T1_RU_JINR_Disk"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/8A1BB185-1532-B442-9B4D-540D376A7F12.root",
+                                "nevents": 4340,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_DE_RWTH",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/525D76F2-9FC5-E943-9581-98B780056ECA.root",
+                                "nevents": 59892,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_DE_RWTH",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/08B451C2-7F4B-1643-9628-A7E1B2E7D100.root",
+                                "nevents": 85064,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_DE_RWTH",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/068B28EE-7580-7943-A4B4-A90CBCAB35B4.root",
+                                "nevents": 868,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_DE_RWTH",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/023AF142-CE80-4F40-A4F4-9702A2D3CB5D.root",
+                                "nevents": 20832,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/18B3C442-E7A7-6644-901F-AACE604AA289.root",
+                                "nevents": 36456,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_EE_Estonia",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/A5E9B9DF-2FBB-4646-BB7B-C5E4BAF32957.root",
+                                "nevents": 46004,
+                                "site": [
+                                    "T2_US_MIT",
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/1499F689-0F43-264D-9C69-6CCA596AFDC5.root",
+                                "nevents": 3038,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP",
+                                    "T2_AT_Vienna"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/B686B616-19F5-4E47-B08C-A2A57F8623BC.root",
+                                "nevents": 20398,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP",
+                                    "T2_IT_Legnaro"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/C7C2CD1C-9BAE-874F-951A-E1B2A789ACEF.root",
+                                "nevents": 25606,
+                                "site": [
+                                    "T1_DE_KIT_Disk",
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/223CEDA0-5874-504D-B04D-89FF91BFE0A4.root",
+                                "nevents": 1302,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/880FA133-325B-2F42-B9CE-EEBE674981E9.root",
+                                "nevents": 1302,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_TW_NCHC",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/D40E1D40-2CE3-514D-BF68-75D78C838C64.root",
+                                "nevents": 48174,
+                                "site": [
+                                    "T2_US_UCSD",
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/E7149F53-A157-084F-9D1C-3BC15CEDEE62.root",
+                                "nevents": 8246,
+                                "site": [
+                                    "T2_BE_UCL",
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/81BD96A4-FA95-3745-B064-3ACE876471B6.root",
+                                "nevents": 23436,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/DE50C4B6-F9AA-B04B-8919-53B000E09FDE.root",
+                                "nevents": 24738,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_BE_IIHE",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/46D63C23-5C32-0D43-BBB0-2E79C66B1379.root",
+                                "nevents": 139748,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/C4EBACEC-03AF-6A49-AE3F-C80B27DC0960.root",
+                                "nevents": 147994,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/F92D93FA-37BB-784A-A4A8-21833193A56F.root",
+                                "nevents": 138446,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/51F86A78-C663-244B-90E3-B9B02F1981EC.root",
+                                "nevents": 139314,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/2D25A85F-1112-DF4B-BFEC-5C2317DFCE2A.root",
+                                "nevents": 148428,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/0D283A2A-2F2F-4249-9696-1EF48AA5F843.root",
+                                "nevents": 138880,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/A99FAF55-906A-0341-B54A-AD58EBECE0EB.root",
+                                "nevents": 90272,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/CDB0D8CC-EC22-D64C-9D43-7B94103A7B3C.root",
+                                "nevents": 148428,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/1B7D3F92-AA7C-8D4C-AE92-272286557383.root",
+                                "nevents": 178374,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/145BA181-A6BC-1D4B-8CB5-DDEB78325F93.root",
+                                "nevents": 147560,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/EEA39989-1090-EA48-ACAB-FABCC793B044.root",
+                                "nevents": 275156,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/67319643-EFFD-9E43-AD9B-CECF09B57F26.root",
+                                "nevents": 275156,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/1C09D0F7-DB95-1744-837A-A64D30B84BF6.root",
+                                "nevents": 203546,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/3080F4CE-AEF7-1647-BE1B-29DAE3497E8A.root",
+                                "nevents": 234794,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/2383BE8F-CEE3-DB4E-BA9D-C69E76C36F1E.root",
+                                "nevents": 275156,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/B1E64D5F-5113-334A-9186-3CBD20708508.root",
+                                "nevents": 172732,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/ABF28044-0406-AC41-B4D2-A760D2B2381D.root",
+                                "nevents": 181846,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/EB59FB6E-EE9A-3F47-9A0E-86E1685929C2.root",
+                                "nevents": 141484,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/0B4CFDA6-8737-C248-8494-5EFA59E7D015.root",
+                                "nevents": 275156,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/267F2C4A-882D-DD4A-83AF-83FA397DC5F9.root",
+                                "nevents": 146258,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/C1369233-182A-7649-9A17-1CF5DAE9E749.root",
+                                "nevents": 222208,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/E1F62D81-7739-0146-BC4E-9FCAD0AD2DCB.root",
+                                "nevents": 151900,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/802E1FA9-340D-3345-929C-A6B2739F8D8B.root",
+                                "nevents": 149730,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/03D483DA-6AFD-2F4E-B58D-6B01AC96ADDF.root",
+                                "nevents": 223076,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/9AA80665-5699-A543-8AEA-832C9E0ABD47.root",
+                                "nevents": 155372,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/F6B9C914-EF78-5841-B977-2BA91AB3A3B0.root",
+                                "nevents": 149296,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/27BACE34-54E9-6047-85C6-D9AD9B79B0D2.root",
+                                "nevents": 151466,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/1BD17BFA-3933-1445-B073-7BB50C61193C.root",
+                                "nevents": 187054,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/8531B6B2-9D1A-D940-919A-66BF945A1791.root",
+                                "nevents": 179242,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/8AC84432-3E01-0F44-8EBE-F31D17E7A80C.root",
+                                "nevents": 178808,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/95B5744F-2F4E-6045-82E5-A342EE17B49B.root",
+                                "nevents": 140182,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/8A88C63F-4466-1148-8032-7D59397398F9.root",
+                                "nevents": 207886,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/A9432EAA-E110-9F46-BEFB-B90AE2BBF5D5.root",
+                                "nevents": 147560,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/AD0932D2-D912-F24B-98F8-6FC0D833CDC9.root",
+                                "nevents": 93744,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/2A1A05D5-E6DA-A74B-ADE1-5B667E642C80.root",
+                                "nevents": 275156,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/0DEC3B10-6DCF-8249-A8C9-D9516610B00C.root",
+                                "nevents": 275156,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/C25BC04E-C6A2-9142-901B-B0F14B97A806.root",
+                                "nevents": 1302,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/83C79104-7F69-0A46-9D60-9C991C933F91.root",
+                                "nevents": 275156,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/8C4A7D65-FC51-7148-A9DD-1CE6C2B432C2.root",
+                                "nevents": 141050,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/82FA2284-8B41-D445-A2CB-DEEC3EFE3A61.root",
+                                "nevents": 30814,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/FC84E202-8CF1-094D-92C2-58895AB3A0A0.root",
+                                "nevents": 275156,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/2940618A-1EB6-DA4B-9F5B-32E8710C6281.root",
+                                "nevents": 213094,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/3B33E5B6-3316-A842-ACF5-422106ABD9E7.root",
+                                "nevents": 156240,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/97F3FFDE-F2E9-8042-A0D5-775222B231BA.root",
+                                "nevents": 275156,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/8C4108F4-DA56-A14A-B3C7-CCA74953D6C8.root",
+                                "nevents": 172732,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/E5ABEB7F-E44C-C244-9756-DB9BEE9264E1.root",
+                                "nevents": 157108,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/A0249535-8C4F-FD4D-BF2A-A049C080224D.root",
+                                "nevents": 212660,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/30342C2D-1CEB-5B49-BF26-8D93E6FD89CD.root",
+                                "nevents": 31682,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_FR_CCIN2P3_Disk",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/C8FCC844-A02F-5C47-8A01-8C06767BE37D.root",
+                                "nevents": 137578,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_FR_CCIN2P3_Disk",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/A9E63F8A-222A-F444-9FE3-6BBE64B5429B.root",
+                                "nevents": 127162,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_FR_CCIN2P3_Disk",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/994AAAB8-1043-C44A-B542-65A144725D35.root",
+                                "nevents": 868,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_FR_CCIN2P3_Disk",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/AEA96B34-6801-8D48-9970-ED612E82E0F2.root",
+                                "nevents": 868,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_DE_DESY",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/6086C6C5-878D-EE4E-BCFC-C52BFBE59DEF.root",
+                                "nevents": 29078,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_DE_DESY",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/70000/4217B047-E736-9448-96C3-77C76EAEE14C.root",
+                                "nevents": 16926,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP",
+                                    "T1_ES_PIC_Disk"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/4D63E31B-6695-F744-B1E9-B681A58B872B.root",
+                                "nevents": 141918,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/32F9D994-7164-EF4D-AD10-E644EEBF1156.root",
+                                "nevents": 176204,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/87BB86F9-4154-1D45-9914-9EC0072F2CA1.root",
+                                "nevents": 47740,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/416452A2-7B27-2343-AB45-0843E792B1F8.root",
+                                "nevents": 868,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_FR_CCIN2P3_Disk",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/9A1ED539-8338-FF41-AE95-000D25B9125D.root",
+                                "nevents": 31248,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/AF9ADBBC-C9E9-944B-A3B9-A1099DBFC608.root",
+                                "nevents": 434,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/F6D707E7-C20E-3B49-8AC8-BCD9A440D2C9.root",
+                                "nevents": 13020,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_TW_NCHC",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/898793A4-437B-CE43-9EBD-12E5FC18454D.root",
+                                "nevents": 434,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T2_US_Caltech",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/D5278E36-BE41-1C44-BB86-2EA841E540DC.root",
+                                "nevents": 29078,
+                                "site": [
+                                    "T2_BE_UCL",
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/2B2C1161-5D09-6B45-B932-93C45C01BE35.root",
+                                "nevents": 24738,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_ES_CIEMAT",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/C34CA3E8-9E7A-7840-BC03-4F0B16EAAFB3.root",
+                                "nevents": 434,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_ES_CIEMAT",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/B6BBC10D-E91A-2E4C-8416-1B0DAF6B6EB1.root",
+                                "nevents": 868,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP",
+                                    "T2_IT_Legnaro"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/2240424B-7F75-894E-AB55-55E218B7464D.root",
+                                "nevents": 13888,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/7343A47E-BD70-104A-A0C3-8B7BC918D067.root",
+                                "nevents": 43400,
+                                "site": [
+                                    "T2_US_Wisconsin",
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/45B3B1D8-EDA7-B040-8FCA-0C68A10ED296.root",
+                                "nevents": 112406,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_UK_London_IC",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/3DB922C9-7474-D043-B4A3-119C6601F02B.root",
+                                "nevents": 69006,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T2_US_Nebraska",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/0239E104-2D61-534F-A16F-5C9959AE22CC.root",
+                                "nevents": 26040,
+                                "site": [
+                                    "T1_DE_KIT_Disk",
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/31299952-E0D2-194A-9805-4A7C18032542.root",
+                                "nevents": 434,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T2_US_Florida",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/DEEC75B7-C39F-C04B-92B9-F76E3B890ECE.root",
+                                "nevents": 120652,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP",
+                                    "T1_RU_JINR_Disk"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/0B5C1AC3-F03A-1540-BF3D-19003842C973.root",
+                                "nevents": 9548,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP",
+                                    "T2_BR_SPRACE"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/4F782A13-35A9-1747-BFF5-99E542E8C26B.root",
+                                "nevents": 434,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_ES_CIEMAT",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/90FC12E5-04C1-304C-AA17-EA7B323D0C47.root",
+                                "nevents": 45570,
+                                "site": [
+                                    "T2_US_MIT",
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/4A5EB543-99DF-1740-B33F-8C925BAB977F.root",
+                                "nevents": 48608,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_DE_DESY",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/3C682AA2-9759-D54A-BC25-6A651F34269F.root",
+                                "nevents": 38626,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP",
+                                    "T1_UK_RAL_Disk"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/A744DB01-061A-374D-B95A-8423CE972D84.root",
+                                "nevents": 42532,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP",
+                                    "T1_ES_PIC_Disk"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/E397704E-58CF-F147-BFD1-5831EA429833.root",
+                                "nevents": 2170,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP",
+                                    "T1_ES_PIC_Disk"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/06435756-57E3-284A-906B-D24CCB07C9D9.root",
+                                "nevents": 3472,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP",
+                                    "T2_AT_Vienna"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/C45C019C-5A02-6B4A-9F55-A6B6B57A6B54.root",
+                                "nevents": 26474,
+                                "site": [
+                                    "T2_US_UCSD",
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/F170A738-494E-B940-A69D-ECCFC187D54F.root",
+                                "nevents": 434,
+                                "site": [
+                                    "T2_US_UCSD",
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/83B782F5-CEE5-0142-821B-1213A2D11E9B.root",
+                                "nevents": 29512,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/95992706-61AA-C04B-92AB-CF6A17B02477.root",
+                                "nevents": 868,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            },
+                            {
+                                "path": "/store/mc/RunIISummer20UL18NanoAODv9/GluGluHToCC_M-125_TuneCP5_MINLO_NNLOPS_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/4DFEA894-E01D-F845-A52B-70BB9097CEE1.root",
+                                "nevents": 35588,
+                                "site": [
+                                    "T2_IT_Rome",
+                                    "T1_US_FNAL_Disk",
+                                    "T2_BE_IIHE",
+                                    "T2_US_Purdue",
+                                    "T0_CH_CERN_Tape",
+                                    "T1_IT_CNAF_Disk",
+                                    "T2_UK_SGrid_RALPP",
+                                    "T2_RU_ITEP"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

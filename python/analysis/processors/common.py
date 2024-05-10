@@ -71,6 +71,20 @@ def select_jet(events: ak.Array):
 
     return events
 
+def select_antitag_jet(events: ak.Array):
+    log('not b-tagged jets', 'select')
+    events['NonBJet'] = events.SelectedJet[
+        (events.SelectedJet.btagDeepFlavB < ZHqqJpsi.tag_DeepJetB)
+    ]
+
+    log('not c-tagged jets', 'select')
+    events['NonCJet'] = events.SelectedJet[
+        (events.SelectedJet.btagDeepFlavCvL < ZHqqJpsi.tag_DeepJetCvL)
+        | (events.SelectedJet.btagDeepFlavCvB < ZHqqJpsi.tag_DeepJetCvB)
+    ]
+
+    return events
+
 def build_boson(events: ak.Array):
     'require `events.DiJets`'
 
@@ -89,11 +103,11 @@ def build_boson(events: ak.Array):
 
     log('bb/cc', 'build')
     events['JJ'] = sort(events.DiJets, 'tag_score')[:, 0:1]
-    events['dr_j1'] = events.JJ._p1.delta_r(events.MuMu)
-    events['dr_j2'] = events.JJ._p2.delta_r(events.MuMu)
+    events['dr_j1'] = events.JJ.obj1.delta_r(events.MuMu)
+    events['dr_j2'] = events.JJ.obj2.delta_r(events.MuMu)
     dr_order = events.dr_j1 > events.dr_j2
-    events[ 'closest'] = where(events.JJ._p1, (dr_order, events.JJ._p2))[:, 0]
-    events['farthest'] = where(events.JJ._p2, (dr_order, events.JJ._p1))[:, 0]
+    events[ 'closest'] = where(events.JJ.obj1, (dr_order, events.JJ.obj2))[:, 0]
+    events['farthest'] = where(events.JJ.obj2, (dr_order, events.JJ.obj1))[:, 0]
     dr_order = None
 
     log('Z/H -> bb/cc + J/psi', 'build')

@@ -1,14 +1,14 @@
 
 from datetime import datetime
 
-from analysis.processors import OneTag, TwoTag, ZeroTag
+from analysis.processors import OneTag, TwoTag, ZeroTag # TODO update
 from coffea.nanoevents import NanoAODSchema
 from coffea.processor import dask_executor, run_uproot_job
 from dask.distributed import Client
-from heptools.cms import LPC
+from heptools.cms import AAA, LPC
 from heptools.dataset import Dataset
 from heptools.system.cluster import HTCondor
-from heptools.system.eos import save
+from heptools.system.eos import EOS, save
 from rich import print
 
 if __name__ == '__main__':
@@ -44,7 +44,7 @@ if __name__ == '__main__':
             inputs = {}
             for (_, dataset, year, era, _), files in datasets:
                 inputs[f'{dataset}_{year}{era}'] = {
-                    'files': [str(f.eos) for f in files],
+                    'files': [str(EOS(f.path, AAA.EOS_LPC)) for f in files],
                     'metadata': {
                         'year': year,
                     }

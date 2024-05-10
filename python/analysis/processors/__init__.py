@@ -1,3 +1,5 @@
-from .data import OneTag, TwoTag, ZeroTag
+from .data import DataTwoTag, DataOneTag, DataZeroTag
+from .mc import MCTwoTag, MCOneTag, MCZeroTag
 
-__all__ = ['TwoTag', 'OneTag', 'ZeroTag']
+__all__ = ['DataTwoTag', 'DataOneTag', 'DataZeroTag',
+           'MCTwoTag', 'MCOneTag', 'MCZeroTag']
