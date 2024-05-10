@@ -1,7 +1,7 @@
 
 from datetime import datetime
 
-from analysis.processors import OneTag, TwoTag, ZeroTag # TODO update
+from analysis.processors import DataOneTag, DataTwoTag, DataZeroTag
 from coffea.nanoevents import NanoAODSchema
 from coffea.processor import dask_executor, run_uproot_job
 from dask.distributed import Client
@@ -13,11 +13,11 @@ from rich import print
 
 if __name__ == '__main__':
     ntags = [
-        (TwoTag, 'twotag'),
-        (OneTag, 'twotag'),
-        (ZeroTag, 'twotag'),
-        (OneTag, 'antitag'),
-        (ZeroTag, 'antitag'),
+        (DataTwoTag, 'twotag'),
+        (DataOneTag, 'twotag'),
+        (DataZeroTag, 'twotag'),
+        (DataOneTag, 'antitag'),
+        (DataZeroTag, 'antitag'),
     ]
 
     start = datetime.now()
