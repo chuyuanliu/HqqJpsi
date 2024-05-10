@@ -22,14 +22,15 @@ if __name__ == '__main__':
 
     start = datetime.now()
     LPC.setup_condor()
+    base = EOS(__file__).parent
     cluster = HTCondor(
         dashboard_port=10200,
         name = 'HqqJpsi_analysis',
         cores = 1,
         memory = '8GB',
         inputs = [
-            'analysis',
-            'lumiMasks'
+            base / 'analysis',
+            base.parent / 'lumiMasks'
         ])
     print(cluster.check_inputs().rich)
     print(cluster.dashboard(8787))
@@ -40,7 +41,7 @@ if __name__ == '__main__':
     client.wait_for_workers(1)
     for era in 'ABCD':
         for processor, picoAOD in ntags:
-            datasets = Dataset.load('datasets/data_PicoAOD.json').subset(dataset = 'Charmonium', tier = f'picoAOD_{picoAOD}', era = era)
+            datasets = Dataset.load(base.parent/'datasets/data_PicoAOD.json').subset(dataset = 'Charmonium', tier = f'picoAOD_{picoAOD}', era = era)
             inputs = {}
             for (_, dataset, year, era, _), files in datasets:
                 inputs[f'{dataset}_{year}{era}'] = {
